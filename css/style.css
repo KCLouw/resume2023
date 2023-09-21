@@ -1,0 +1,91 @@
+header {
+    background-color: rgb(61, 61, 216);
+    color: white;
+    height: 100vh;
+    margin-bottom: 0;
+}
+
+.prof-pic {
+    width: 300px;
+    border-radius: 50%;
+}
+
+.head-font {
+    font-family: 'Mooli', sans-serif;
+}
+
+.content {
+    background-color: rgb(185, 206, 252);
+    padding-bottom: 5%;
+}
+
+ul {
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+ol {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+li {
+    list-style-position: inside;
+}
+
+.skill-img {
+    height: 120px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(61, 61, 216);
+    color: white;
+}
+
+.footer-header {
+    align-self: center;
+    font-family: 'Mooli', sans-serif;
+    font-size: 50px;
+}
+
+.contacts {
+    align-self: center;
+}
+
+.contacts > a > img {
+    height: 100px;
+    padding: 20px;
+}
+
+@media (max-width: 900px) {
+    .skills {
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 600px) {
+    .work {
+        margin-top: 5%;
+    }
+    
+    .center {
+        text-align: center;
+    }
+
+    .skill-img {
+        margin-left: 25%;
+    }
+
+    .footer-header {
+        font-size: 30px;
+    }
+
+    .contacts > a > img {
+        height: 80px;
+        padding: 20px;
+    }
+}
+
+
